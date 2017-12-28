@@ -1,4 +1,8 @@
 # Customer-Clustering-Segmentation-Challenge
-My work for the KPMG (open to public) challenge for bank customer segmentation based on its annual banking industry survey. Dimension of dataset 40,000rows x 150 columns 
+My work for the KPMG challenge for bank customer segmentation based on its annual banking industry survey. Dimension of dataset 40,000rows x 150 columns
 
-To understand my methodology, please read the file tagged "Submission_BetterExplained.pdf" and look at the data file "Data Science Bootcamp Data_2.0.xlsx" before looking at my	to understand my methodology before looking at the Jupyter notebook
+After data cleanup, I created and selected some specific features of interest. Then I ran K-means to generate 7 clusters and used principal component analysis to run some visual checks.
+
+My methodology is explained in the "Submission_BetterExplained.pdf" file. This file also explains the results obtained from the cluster analysis (the customer personas), and profers ways that the analysis could be improved. 
+
+The raw data set and the encoding can be found in the "Data Science Bootcamp Data_2.0.xlsx"
